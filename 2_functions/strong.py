@@ -18,15 +18,18 @@ def strong(num):
         sum += f
         n = n // 10
 
-    return sum
+    if ( num == sum ) :
+        return 1
+    else : 
+        return 0
 
 
 
 number = int(input("Enter a number : "))
 
-res = strong(number)
+strong_number = strong(number)
 
-if ( res == number ) :
+if ( strong_number ) :
     print("Yes it is a Strong Number")
 else : 
     print("Not a Strong number")
