@@ -4,6 +4,8 @@ def rev(num):
         r = num % 10
         new = new * 10 + r 
         num = num // 10
+
+    #new = num[ : : -1]
     return new
 
 

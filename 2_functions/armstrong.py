@@ -17,9 +17,7 @@ def armstrong(num):
 number = input("Enter a number : ")
 result = armstrong(number)
 
-print(result)
-
-if(result == 1):
+if(result):
     print("Yes it is an Armstrong Number")
 else:
     print("Not it is not an Armstrong Number")
