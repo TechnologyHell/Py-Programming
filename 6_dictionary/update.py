@@ -21,4 +21,5 @@ if "year" in car1 :
 print("Model : ", car1.get("model"))
 
 x = int(input("Enter the age of the car :" ))
-car1[year]
+car1["year"] = x
+print("New age : ", car1.get("year"))
